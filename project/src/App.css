@@ -1,0 +1,238 @@
+.App {
+  text-align: center;
+}
+html {
+  background-color:rgba(255, 241, 160, 0.342);
+  /* background-color:#3c3c3cbd; */
+
+}
+
+.center{
+/* display: flex; */
+justify-content: center;
+align-content: center;
+  }
+
+  .body {
+    background: rgba(53, 51, 51, 0.349);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(60deg, #9a031fce, #ec782f, #fc7d06da);
+    height: 100vh;
+    /* width: 100vh; */
+  }
+  
+  .Glass {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 3em;
+    border-radius: 5px;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    backdrop-filter: blur(6px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.426);
+    text-align: center;
+    /* position: relative; */
+    /* transition: all 0.2s ease-in-out; */
+    /* background-color: rgba(92, 238, 123, 0.144); */
+  }
+  
+  .txt {
+    font-weight: 500;
+    color: #fff;
+    /* opacity: 0.7; */
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+.reg_p1 {
+  height: 90vh;
+  max-width: 45%;
+  /* background-color: #00695c; */
+  /* background-size: 50vh; */
+  height: 100vh;
+  padding: 20px;
+  /* color: #006064; */
+  font-weight: "bold";
+}
+
+.reg_p2 {
+  background-color: #00695c;
+  background-size: 50vh;
+  height: 100vh;
+  padding: 20px;
+  color: #006064;
+  font-weight: "bold";
+}
+
+.form_icon {
+  width: 50px;
+}
+
+.txtf {
+  /* color:#fff; */
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.Head {
+  /* color: #003947; */
+  font-weight: bold;
+  text-shadow: 1px 0px 5px #FFDAB9;
+  /* text-decoration-color:#ececec; */
+  /* text-decoration: ; */
+}
+
+.nav_lnk{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: large;
+}
+.nav_lnk:hover{
+  text-decoration: none;
+  color:rgb(163, 17, 6);
+ 
+}
+
+/* ______LOGO starts___________ */
+.gg-shape-hexagon,
+.gg-shape-hexagon::after,
+.gg-shape-hexagon::before {
+    display: block;
+    box-sizing: border-box;
+    width: 25px;
+    height: 15px;
+    border-left: 3px solid white;
+    border-right: 3px solid white
+}
+.gg-shape-hexagon {
+    position: relative;
+    transform: scale(var(--ggs,1))
+}
+.gg-shape-hexagon::after,
+.gg-shape-hexagon::before {
+    content: "";
+    position: absolute;
+    left: -3px
+}
+.gg-shape-hexagon::before {
+    transform: rotate(60deg)
+}
+.gg-shape-hexagon::after {
+    transform: rotate(-60deg)
+}
+/* ______LOGO ends */
+
+.container1{
+  background: rgb(163, 17, 6);
+  color: #fff;
+  text-align: center !important;
+}
+.container2{
+  background: rgb(255, 250, 240);
+  padding: 45px;
+  color: #2c2c2c;
+
+}
+
+
+/* ADMIN  */
+.admin_log {
+  height: 100vh; 
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(30deg, #064150, #000000, #00796b);
+}
+
+.admin_g {
+  /* color:#fff; */
+  /* background: linear-gradient(217deg, #9a031fe0, #ff000000 70.71%),
+      linear-gradient(#5f0f4075, #00000018 60%)
+      linear-gradient(336deg, #0f4d5ca1, #0f4c5c00 70.71%); */
+  background: rgba(255, 255, 255, 0.5);
+  padding: 3em;
+  border-radius: 0px;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  backdrop-filter: blur(6px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.322);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.container {
+  display: flex;
+}
+.container__column {
+  flex: 1;
+  /* Space between columns */
+  margin: 0 8px;
+  /* Layout each column */
+  display: flex;
+  flex-direction: column;
+}
+
+.container__content {
+  /* Take available height */
+  flex: 1;
+}
+
+/* USER  */
+.rect{
+  height: 100vh;
+  background-size: cover;
+  background-image: url();
+  position: relative;
+  z-index: 5;
+}
+
+
+.user_log {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(0deg, #033d9ae0 , #b9e3ff 30%);
+  position: relative;
+  z-index: 2;
+}
+
+/* NGO */
+.bg1{
+  background-image:linear-gradient( rgba(107, 231, 155, 0.5), rgba(2, 234, 255, 0.5) );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.ngo_g {
+  background:linear-gradient(to top, rgba(1, 1, 1, 0.4),rgba(255, 255, 255, 0.8));
+  padding: 3em;
+  border-radius: 0px;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  backdrop-filter: blur(8px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.322);
+  text-align: center;
+}
+
+.rform_img{
+  background-image: linear-gradient(to top,rgb(1,1,1,.7),rgb(255,255,255,.5)), url('https://media.istockphoto.com/vectors/seamless-volunteer-charity-background-vector-id483747767?k=20&m=483747767&s=170667a&w=0&h=7pVWcutdR-NVYwa_iL2CBy1MFewy4DF_8SzaQyyjH_o=');
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.meteor1{
+  height: 100vh;
+  background-size: cover;
+  background-image:
+   /* linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), */
+   url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='660' preserveAspectRatio='none' viewBox='0 0 1440 660'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2113%26quot%3b)' fill='none'%3e%3crect width='1440' height='660' x='0' y='0' fill='url(%23SvgjsLinearGradient2114)'%3e%3c/rect%3e%3cpath d='M789.76 722.84C919.09 625.77 839.33 146.94 1067.2 138.53 1295.08 130.12 1473.7 346.2 1622.09 349.73' stroke='rgba(139%2c 1%2c 1%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M304.01 699.23C508.85 663.44 604.02 160.28 933.72 155.8 1263.42 151.32 1401.5 306.53 1563.43 307.6' stroke='rgba(139%2c 1%2c 1%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M350.38 725.79C549.75 708.69 687.77 300.74 1028.5 300.57 1369.23 300.4 1522.3 584.95 1706.62 590.97' stroke='rgba(139%2c 1%2c 1%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M788.52 777.34C873.1 765.79 824.99 586 1059.25 569.27 1293.5 552.54 1450.26 312.18 1600.7 305.27' stroke='rgba(139%2c 1%2c 1%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M368.83 750.82C466.02 748.68 440.76 623.05 733.57 615.98 1026.38 608.91 1267.44 337.12 1463.06 332.18' stroke='rgba(139%2c 1%2c 1%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2113'%3e%3crect width='1440' height='660' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='86.46%25' y1='129.55%25' x2='13.54%25' y2='-29.55%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2114'%3e%3cstop stop-color='rgba(255%2c 241%2c 178%2c 1)' offset='0.26'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 184%2c 112%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    }
+
+    
